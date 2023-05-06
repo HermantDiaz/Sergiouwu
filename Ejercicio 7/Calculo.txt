@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class Calculo {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		double lado1, lado2;
+		
+		System.out.print("Indique el valor para el lado 1: ");
+		lado1 = scanner.nextDouble();
+		System.out.print("Indique el valor para el lado 2: ");
+		lado2 = scanner.nextDouble();
+		
+		
+		
+		System.out.println("Lado 1: " + lado1);
+		System.out.println("Lado 2: " + lado2);
+		System.out.println("Hipotenusa: " + Calculo_hipotenusa.hipotenusa(lado1, lado2) );
+		
+
+	}
+
+}
