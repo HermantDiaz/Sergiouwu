@@ -1,0 +1,19 @@
+
+public class PruebaFecha {
+
+	public static void main(String[] args) {
+		
+		Fecha Fecha = new Fecha(24, 04, 22);
+        Fecha.mostrarFecha();
+        
+        
+		Fecha.establecerdia(5);
+        Fecha.establecermes(4);
+        Fecha.estableceraño(2023);
+        
+        System.out.println("\n" + "Fecha actualizada:");
+        Fecha.mostrarFecha();
+		
+	}
+
+}

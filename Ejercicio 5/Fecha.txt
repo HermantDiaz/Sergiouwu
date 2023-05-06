@@ -1,0 +1,43 @@
+
+public class Fecha {
+int dia;
+int mes;
+int año;
+
+public Fecha(int mes, int dia, int año) {
+    this.dia = dia;
+	this.mes = mes;
+    this.año = año;
+}
+	
+	public void establecerdia (int dia) {
+		this.dia = dia;
+	}
+	
+	public void establecermes (int mes) {
+		this.mes = mes;
+	}
+	
+	public void estableceraño (int año) {
+		this.año = año;
+	}
+	
+	
+    public int ObtenerDia() {
+        return dia;
+    }
+
+    public int ObtenerMes() {
+        return mes;
+    }
+
+    public int ObtenerAño() {
+        return año;
+    }
+
+    public void mostrarFecha() {
+        System.out.printf(dia + "/" + mes + "/" + año);
+    }
+    
+    
+}

@@ -1,0 +1,56 @@
+
+public class Prueba_empleado {
+
+	public static void main(String[] args) {
+		Empleado Empleado = new Empleado ("","",1);
+		Empleado.establecer_primer_nombre("Hermant");
+		Empleado.establecer_apellido("Rodriguez");
+		Empleado.establecer_salario_mensual(500);
+		
+		
+		Empleado Empleado2 = new Empleado ("","",1);
+		Empleado2.establecer_primer_nombre("Angie");
+		Empleado2.establecer_apellido("Diaz");
+		Empleado2.establecer_salario_mensual(-50);
+		
+		
+		//condicion
+		if(Empleado.condicion() == true) {
+			Empleado.mostrar();
+			
+		}else {
+			System.out.println(Empleado.Obtener_primer_nombre() + " "+ Empleado.Obtener_apellido() + " 0");
+		}
+		
+		if(Empleado2.condicion() == true) {
+			Empleado2.mostrar();
+			
+		}else {
+			System.out.println(Empleado2.Obtener_primer_nombre() + " "+ Empleado2.Obtener_apellido() + " 0");
+		}
+		
+		
+		
+		System.out.println("\nAumento del 10%\n");
+		
+		
+		if(Empleado.condicion() == true) {
+			Empleado.mostrar2();
+			
+		}else {
+			System.out.println(Empleado.Obtener_primer_nombre() + " "+ Empleado.Obtener_apellido() + " 0");
+		}
+		
+		if(Empleado2.condicion() == true) {
+			Empleado2.mostrar2();
+			
+		}else {
+			System.out.println(Empleado2.Obtener_primer_nombre() + " "+ Empleado2.Obtener_apellido() + " 0");
+		}
+		
+		
+		
+		
+	}
+
+}
